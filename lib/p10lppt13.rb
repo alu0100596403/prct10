@@ -2,7 +2,10 @@ require "fraccion.rb"
 
 class Matriz
 
-	attr_reader :nfil, :ncol
+	# Variable que guarda el numero de filas
+	attr_reader :nfil
+	# Variable que guarda el numero de columnas
+	attr_reader :ncol
 	# Metodo initilize de la clase base
 	$acum
 	def initialize(nfil, ncol)
